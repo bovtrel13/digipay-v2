@@ -1,15 +1,15 @@
 // src/pages/dashboard/ui/Dashboard.tsx
 import { Balance } from '@/entities/balance';
 import { balanceData } from '@/entities/balance/model';
-import { Income } from '@/features/income';
-import { Expenses } from '@/features/expenses';
-import { DebitCard } from '@/features/debit-card';
-import { RecentTransactions } from '@/features/recent-transactions';
-import { transactions } from '@/features/recent-transactions/model';
-import { Analytics } from '@/features/analytics';
-import { analyticsData } from '@/features/analytics/model';
-import { QuickMenu } from '@/features/quick-menu';
-import { quickMenuItems } from '@/features/quick-menu/model';
+import { Income } from 'features/finance/income';
+import { Expenses } from 'features/finance/expenses';
+import { DebitCard } from 'features/account/debit-card';
+import { RecentTransactions } from 'features/account/recent-transactions';
+import { transactions } from '@/features/account/recent-transactions/model';
+import { Analytics } from 'features/finance/analytics';
+import { analyticsData } from '@/features/finance/analytics/model';
+import { QuickMenu } from 'features/actions/quick-menu';
+import { quickMenuItems } from '@/features/actions/quick-menu/model';
 import { Header } from '@/widgets/header';
 
 export const Dashboard: React.FC = () => {
